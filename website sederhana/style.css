@@ -1,0 +1,131 @@
+body {
+	font: 16px/28px arial, sans-serif;
+	background-color: lightgray;
+	background-image: url(image/oriental-tiles.png);
+	color: black;
+}
+
+.container {
+	width: 900px;
+	margin: auto;
+	background-color: whitesmoke;
+}
+.header {
+	padding: 20px;
+	text-align: left;
+}
+
+.header .judul {
+	padding: 20px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: left;
+	margin-left: 20px;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 11px;
+	margin-right: 10px;
+	text-align: left;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+}
+
+.header a:hover {
+	background-color: lightskyblue;
+	color: white;
+}
+
+.hero {
+	height: 320px;
+	background-image: url(image/gambar2.png);
+	background-size: cover;
+	background-position: 0 -89px;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid lightskyblue;
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main h2 {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.main .penulis {
+	font-size: 11px;
+	margin-top: -12px;
+}
+
+.main .penulis a {
+	color: salmon;
+	text-decoration: none;
+}
+
+.main p {
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+/*slidebar*/
+
+.slidebar {
+	width: 200px;
+	float: right;
+	padding: 20px;
+}
+
+.slidebar h3 {
+	font-weight: bold;
+	color: #666;
+}
+
+.slidebar img {
+	width: 70px;
+	height: 70px;
+	float: left;
+	padding-right: 10px;
+}
+
+.slidebar p {
+	font: 12px/18px arial;
+}
+
+.footer {
+	background-color: #333;
+	padding: 10px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
